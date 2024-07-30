@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de contacto</title>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
     <div class="contact_form">
@@ -14,7 +18,7 @@
 		<h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
 
 
-    <form action="submeter-formulario.php" method="post">				
+    <form id="frm-email" action="submeter-formulario.php" method="post">				
 
 
         <p>
@@ -49,4 +53,5 @@
 		</div>	
 	</div>
 </body>
+<script src="index.js"></script>
 </html>
